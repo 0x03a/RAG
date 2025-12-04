@@ -1,9 +1,9 @@
-# requirements.txt - COMPATIBLE VERSIONS FOR STREAMLIT CLOUD
+# requirements.txt - STREAMLIT CLOUD COMPATIBLE
 streamlit==1.28.1
 chromadb==0.4.22
 google-generativeai==0.3.2
-pandas==2.0.3
-numpy==1.24.3
+pandas==2.2.0  # Updated to newer version
+numpy==1.26.4  # Updated to work with Python 3.13
 sentence-transformers==2.2.2
 pypdf==4.2.0
 langchain==0.1.0
