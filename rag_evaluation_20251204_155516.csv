@@ -1,0 +1,8 @@
+query,retrieved_count,precision,recall,f1,retrieved_diseases,expected_diseases,answer_length,contains_expected,coverage,coherence,answer_preview
+What treatments are used for chest pain?,3,0.333,0.5,0.4,['Acute Coronary Syndrome'],"['Acute Coronary Syndrome', 'Heart Failure']",131,2,0.5,0.655,"Based on the available medical notes:
+
+The provided medical notes offer very limited information reg..."
+How is diabetes managed?,3,0.333,1.0,0.5,"['Alzheimer', 'Diabetes']",['Diabetes'],128,2,0.5,0.64,"Based on the available medical notes, the management of diabetes explicitly mentioned is **insulin t..."
+What are symptoms of pneumonia?,3,0.333,1.0,0.5,['Pneumonia'],['Pneumonia'],145,4,1.0,0.725,"Based on the available medical notes, symptoms associated with pneumonia include:
+
+*   Fever (Docume..."
